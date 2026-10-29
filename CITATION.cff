@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying Honours thesis."
+title: "Graph Interferometric Reconstruction"
+type: software
+authors:
+  - family-names: "Streitberg"
+    given-names: "James"
+version: 0.1.0
+date-released: 2026-10-29
+

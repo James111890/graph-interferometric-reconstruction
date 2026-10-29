@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graph-interferometric-reconstruction"
+version = "0.1.0"
+description = "Compact graph-based radio-interferometric reconstruction reference implementation"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "James Streitberg"},
+]
+dependencies = [
+  "matplotlib>=3.7",
+  "numpy>=1.24",
+  "torch>=2.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
